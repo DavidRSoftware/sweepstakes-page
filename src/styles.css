@@ -45,6 +45,12 @@
     }
 }
 
+@media (max-width: 375px) {
+    .main-two {
+        min-height: 920px;
+    }
+}
+
 .footer {
     min-height: 180px;
     background: #804F00;
