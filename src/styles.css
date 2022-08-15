@@ -1,0 +1,161 @@
+/* sections */
+
+.header {
+    height: 155px;
+    background: #750017;
+}
+
+.main-one {
+    height: 500px;
+    background: #DB002C;
+}
+
+.main-two {
+    min-height: 570px;
+    background: #750017;
+}
+
+@media (max-width: 992px) {
+    .main-two {
+        min-height: 830px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-two {
+        min-height: 790px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-two {
+        min-height: 615px;
+    }
+}
+
+@media (max-width: 520px) {
+    .main-two {
+        min-height: 730px;
+    }
+}
+
+@media (max-width: 440px) {
+    .main-two {
+        min-height: 820px;
+    }
+}
+
+.footer {
+    min-height: 180px;
+    background: #804F00;
+    position: relative;
+}
+
+.form-background {
+    background: #FFE9ED;
+}
+
+.main-section-left {
+    gap: 1rem;
+}
+
+/* text and forms */
+
+.logo-text {
+    font-family: 'Roboto Serif', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFE9ED;
+}
+
+.win-big-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.03em;
+    color: #36000B;
+}
+
+@media (min-width: 992px) {
+    .win-big-text {
+        font-size: 54px;
+    }
+}
+
+.form-text {
+    color: #36000B;
+    font-family: 'Roboto', sans-serif;
+}
+
+form label {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+form input {
+    background-color: #D9C7CA !important;
+    border: none !important;
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFE9ED;
+}
+
+.footer-text-small {
+    position: absolute;
+    bottom: 1em;
+    left: 4.5em;
+    font-size: 16px;
+}
+
+.details-text {
+    color: #FFE9ED;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+@media (max-width: 992px) {
+    .details-text {
+        font-weight: 400;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .details-text {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .details-text {
+        font-size: 25px;
+    }
+}
+
+.footer-item {
+    padding: 1rem;
+}
+
+/* image */
+
+.image-container {
+    width: 200px;
+    height: 200px;
+}
+
+/* buttons */
+
+.btn-orange {
+    background-color: #ff9f00;
+    color: #36000B;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
